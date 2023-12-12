@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://sumo.sf.net/xsd/connections_file.xsd">
+
+    <connection from="en900_1" to="en800_1" />
+    <connection from="en800_1" to="en700_1" />
+    <connection from="en700_1" to="en600_1" />
+    <connection from="en600_1" to="en500_1" />
+    <connection from="en500_1" to="en400_1" />
+    <connection from="en400_1" to="en300_1" />
+    <connection from="en300_1" to="en200_1" />
+    <connection from="en200_1" to="en100_1" />
+    <connection from="en100_1" to="ez_1" />
+    <connection from="ez_1" to="e100_1" />
+    <connection from="e100_1" to="e200_1" />
+    <connection from="e200_1" to="e300_1" />
+    <connection from="e300_1" to="e400_1" />
+    <connection from="e400_1" to="e500_1"  />
+    <connection from="e500_1" to="e600_1" />
+    <connection from="e600_1" to="e700_1" />
+    <connection from="e700_1" to="e800_1" />
+    <connection from="e800_1" to="e900_1" />
+    <connection from="e900_1" to="e1000_1" />
+
+    <connection from="e900_2" to="e800_2" />
+    <connection from="e800_2" to="e700_2" />
+    <connection from="e700_2" to="e600_2" />
+    <connection from="e600_2" to="e500_2" />
+    <connection from="e500_2" to="e400_2" />
+    <connection from="e400_2" to="e300_2" />
+    <connection from="e300_2" to="e200_2" />
+    <connection from="e200_2" to="e100_2" />
+    <connection from="e100_2" to="ez_2" />
+    <connection from="ez_2" to="en100_2" />
+    <connection from="en100_2" to="en200_2" />
+    <connection from="en200_2" to="en300_2" />
+    <connection from="en300_2" to="en400_2" />
+    <connection from="en400_2" to="en500_2" />
+    <connection from="en500_2" to="en600_2" />
+    <connection from="en600_2" to="en700_2" />
+    <connection from="en700_2" to="en800_2" />
+    <connection from="en800_2" to="en900_2" />
+    <connection from="en900_2" to="en1000_2" />
+</connections>
+

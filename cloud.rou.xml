@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType vClass="truck" guiShape="truck" accel="3.0" decel="6.0" id="car_truck" maxSpeed="20.0" sigma="0.5" />
+  <vType vClass="trailer" guiShape="truck/trailer" accel="3.0" decel="6.0" id="car_trailer" maxSpeed="20.0" sigma="0.5" />
+
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="2.5" maxSpeed="20.0" sigma="0.5" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="6.0" minGap="2.5" maxSpeed="20.0" sigma="0.5" />
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="0.5" />
+  <!-- aggressive driving -->
+  <!-- <vType lcPushy="1" lcPushyGap="0" accel="20.0" decel="5.0" id="CarAC" length="7.5" minGap="2.5" maxSpeed="70.0" sigma="1" /> -->
+  <vType lcPushy="1" lcPushyGap="0" accel="20.0"  decel="5.0" id="CarAC" length="7.5" minGap="0.0" maxSpeed="70.0" sigma="1" />
+  <vType lcPushy="1" lcPushyGap="0" accel="6.0" decel="6.0" id="CarLC" length="5.0" minGap="2.5" maxSpeed="15.0" sigma="1" />
+
+  <route id="route01" edges="en900_1 en800_1 en700_1 en600_1 en500_1 en400_1 en300_1 en200_1 en100_1 ez_1
+        e100_1 e200_1 e300_1 e400_1 e500_1 e600_1 e700_1 e800_1 e900_1 e1000_1" />
+
+  <!-- <route id="route01_lc" edges="en900_1_2 en800_1_3 en700_1_2 en600_1_3 en500_1_2 en400_1_3 en300_1_2 en200_1_3 en100_1_2 ez_1_3
+        e100_1_2 e200_1_3 e300_1_2 e400_1_3 e500_1_2 e600_1_3 e700_1_2 e800_1_3 e900_1_2 e1000_1_3" /> -->
+
+  <route id="route01_rev" edges="e900_2 e800_2 e700_2 e600_2 e500_2 e400_2 e300_2 e200_2 e100_2 ez_2 en100_2
+        en200_2 en300_2 en400_2 en500_2 en600_2 en700_2 en800_2 en900_2 en1000_2" />
+
+
+  <!-- forward -->
+  <flow id="flow_trailer1" departLane="0" arrivalLane="0" color="0,1,0" begin="0" end="1000" period="5" route="route01" type="car_trailer" />
+  <flow id="flow_truck1" departLane="1" arrivalLane="1" color="0,1,0" begin="0" end="1000" period="5" route="route01" type="car_truck" />
+  
+  <flow id="flow_carA" departLane="3" arrivalLane="3" color="0,1,0" begin="0" end="1000" period="5" route="route01" type="CarA" />
+  <flow id="flow_carB" departLane="3" arrivalLane="3" color="0,1,0" begin="0" end="1000" period="5" route="route01" type="CarB" />
+  <flow id="flow_ac" departLane="2" arrivalLane="2" color="1,0,0" begin="0" end="1000" period="25" route="route01" type="CarLC" />
+  
+
+  <!-- backward -->
+  <flow id="flow_trailer1_r" departLane="0" arrivalLane="0" color="0,1,0" begin="0" end="1000" period="3" route="route01_rev" type="car_trailer" />
+  <flow id="flow_truck1_r" departLane="1" arrivalLane="1" color="0,1,0" begin="0" end="1000" period="3" route="route01_rev" type="car_truck" />
+  
+  
+  <flow id="flow_carA1_r" departLane="2" arrivalLane="2" color="0,1,0" begin="0" end="1000" period="5" route="route01_rev" type="CarA" />
+  
+  <flow id="flow_carB1_r" departLane="3" arrivalLane="3" color="0,1,0" begin="0" end="1000" period="5" route="route01_rev" type="CarB" />
+ 
+
+</routes>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://sumo.sf.net/xsd/edges_file.xsd">
+    
+    <edge id="en900_1" from="n1000" to="n900" numLanes="4" speed="100" />
+    <edge id="en800_1" from="n900" to="n800" numLanes="4" speed="100" />
+    <edge id="en700_1" from="n800" to="n700" numLanes="4" speed="100" />
+    <edge id="en600_1" from="n700" to="n600" numLanes="4" speed="100" />
+    <edge id="en500_1" from="n600" to="n500" numLanes="4" speed="100" />
+    <edge id="en400_1" from="n500" to="n400" numLanes="4" speed="100" />
+    <edge id="en300_1" from="n400" to="n300" numLanes="4" speed="100" />
+    <edge id="en200_1" from="n300" to="n200" numLanes="4" speed="100" />
+    <edge id="en100_1" from="n200" to="n100" numLanes="4" speed="100" />
+    <edge id="ez_1" from="n100" to="z" numLanes="4" speed="100" />
+    <edge id="e100_1" from="z" to="100" numLanes="4" speed="100" />
+    <edge id="e200_1" from="100" to="200" numLanes="4" speed="100" />
+    <edge id="e300_1" from="200" to="300" numLanes="4" speed="100" />
+    <edge id="e400_1" from="300" to="400" numLanes="4" speed="100" />
+    <edge id="e500_1" from="400" to="500" numLanes="4" speed="100" />
+    <edge id="e600_1" from="500" to="600" numLanes="4" speed="100" />
+    <edge id="e700_1" from="600" to="700" numLanes="4" speed="100" />
+    <edge id="e800_1" from="700" to="800" numLanes="4" speed="100" />
+    <edge id="e900_1" from="800" to="900" numLanes="4" speed="100" />
+    <edge id="e1000_1" from="900" to="1000" numLanes="4" speed="100" />
+    
+    <edge id="e900_2" from="1000" to="900" numLanes="4" speed="100" />
+    <edge id="e800_2" from="900" to="800" numLanes="4" speed="100" />
+    <edge id="e700_2" from="800" to="700" numLanes="4" speed="100" />
+    <edge id="e600_2" from="700" to="600" numLanes="4" speed="100" />
+    <edge id="e500_2" from="600" to="500" numLanes="4" speed="100" />
+    <edge id="e400_2" from="500" to="400" numLanes="4" speed="100" />
+    <edge id="e300_2" from="400" to="300" numLanes="4" speed="100" />
+    <edge id="e200_2" from="300" to="200" numLanes="4" speed="100" />
+    <edge id="e100_2" from="200" to="100" numLanes="4" speed="100" />
+    <edge id="ez_2" from="100" to="z" numLanes="4" speed="100" />
+    <edge id="en100_2" from="z" to="n100" numLanes="4" speed="100" />
+    <edge id="en200_2" from="n100" to="n200" numLanes="4" speed="100" />
+    <edge id="en300_2" from="n200" to="n300" numLanes="4" speed="100" />
+    <edge id="en400_2" from="n300" to="n400" numLanes="4" speed="100" />
+    <edge id="en500_2" from="n400" to="n500" numLanes="4" speed="100" />
+    <edge id="en600_2" from="n500" to="n600" numLanes="4" speed="100" />
+    <edge id="en700_2" from="n600" to="n700" numLanes="4" speed="100" />
+    <edge id="en800_2" from="n700" to="n800" numLanes="4" speed="100" />
+    <edge id="en900_2" from="n800" to="n900" numLanes="4" speed="100" />
+    <edge id="en1000_2" from="n900" to="n1000" numLanes="4" speed="100" />
+</edges>
+

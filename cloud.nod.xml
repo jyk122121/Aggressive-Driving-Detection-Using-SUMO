@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://sumo.sf.net/xsd/nodes_file.xsd">
+
+    <node id="n1000" x="-1000" y="100" />
+    <node id="n900" x="-900" y="100" />
+    <node id="n800" x="-800" y="100" />
+    <node id="n700" x="-700" y="100" />
+    <node id="n600" x="-600" y="100" />
+    <node id="n500" x="-500" y="100" />
+    <node id="n400" x="-400" y="100" />
+    <node id="n300" x="-300" y="100" />
+    <node id="n200" x="-200" y="100" />
+    <node id="n100" x="-100" y="100" />
+    <node id="z" x="0" y="100" />
+    <node id="100" x="100" y="100" />
+    <node id="200" x="200" y="100" />
+    <node id="300" x="300" y="100" />
+    <node id="400" x="400" y="100" />
+    <node id="500" x="500" y="100" />
+    <node id="600" x="600" y="100" />
+    <node id="700" x="700" y="100" />
+    <node id="800" x="800" y="100" />
+    <node id="900" x="900" y="100" />
+    <node id="1000" x="1000" y="100" />
+</nodes>
+

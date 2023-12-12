@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <edge-files value="cloud.edg.xml"/>
+        <node-files value="cloud.nod.xml"/>
+        <type-files value="cloud.typ.xml"/>
+        <connection-files value="cloud.con.xml"/>
+    </input>
+    <output>
+        <output-file value="cloud.net.xml"/>
+    </output>
+    <processing>
+        <no-turnarounds value="true"/>
+    </processing>
+</configuration>
+
